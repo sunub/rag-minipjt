@@ -1,0 +1,17 @@
+{
+  "xml_articles": 46,
+  "chunks": 139,
+  "searchable_chunks": 122,
+  "source_units": 414,
+  "missing_source_units": [],
+  "source_unit_retention": 1.0,
+  "id_collisions": 0,
+  "unknown_golden_articles": [],
+  "by_role": {
+    "child": 132,
+    "parent": 7
+  },
+  "golden_count": 45,
+  "golden_hash": "671e9831699e3324ed2fd4541bc6034bbc2e62e29129f0cf5961b0baf5a236fb",
+  "evidence_labeled_questions": 0
+}

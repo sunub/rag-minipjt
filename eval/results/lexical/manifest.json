@@ -1,0 +1,37 @@
+{
+  "started_at": "2026-10-08T14:31:15.531644+09:00",
+  "snapshot_date": "2026-07-21",
+  "mst": 282791,
+  "promulgation_no": "21311",
+  "golden_file": "golden_set_v2.jsonl",
+  "golden_hash": "671e9831699e3324ed2fd4541bc6034bbc2e62e29129f0cf5961b0baf5a236fb",
+  "question_count": 45,
+  "xml_hash": "0ec6a7b9d770e645c56d0c0612d793dc1b35dd90fce6f34f8ba6c33a3c3723d4",
+  "chunker_version": "3",
+  "embedding_model": "text-embedding-3-small",
+  "llm_model": "gpt-5.4-mini",
+  "python": "3.14.7",
+  "experiments": {
+    "C_structure_bm25": {
+      "corpus": "structure",
+      "mode": "bm25",
+      "candidate_k": 30,
+      "branch_k": 20,
+      "final_k": 8,
+      "rerank": false,
+      "expand": false,
+      "exact_routing": false,
+      "token_budget": 6000,
+      "max_references": 3
+    }
+  },
+  "bm25_tokenizer": "words+Hangul-bigrams; AI normalized; BM25Plus(delta=0)",
+  "evaluation_unit": "unique article; exact evidence only if required_evidence is labeled",
+  "latency_note": "Observed wall time; content-addressed API caches may be warm. Not cold latency.",
+  "llm_judge_note": "Same configured model as generation; automated proxy, human review required.",
+  "answers": false,
+  "oracle": false,
+  "lexical_only": true,
+  "finished_at": "2026-10-08T14:31:16.208839+09:00",
+  "retrieval_errors": 0
+}
